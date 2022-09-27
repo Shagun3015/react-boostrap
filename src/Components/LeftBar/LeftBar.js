@@ -13,7 +13,7 @@ return(
     <Container fluid>
     <Tab.Container id="list-group-tabs-example" defaultActiveKey="#link1">
       <Row>
-        <Col sm={3}>
+        <Col sm={2}>
           <ListGroup  variant="flush">
             <ListGroup.Item action href="#link1">
               Link 1
@@ -44,7 +44,7 @@ return(
             </ListGroup.Item>
           </ListGroup>
         </Col>
-        <Col sm={9}>
+        <Col sm={10}>
         <Breadcrumb>
       <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
       <Breadcrumb.Item href="/">
